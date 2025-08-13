@@ -1,0 +1,74 @@
+/* TopNavBar.module.css */
+.top-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1e2e;
+  padding: 15px 30px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.cartIcon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 60px;
+}
+
+.cartIconn {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ffa500;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-icons i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sign-in-button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sign-in-button:hover {
+  background-color: #e65c00;
+}

@@ -1,0 +1,82 @@
+.footer-container {
+  display: flex;
+  background-color: #111927;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-left {
+  position: relative;
+  width: 25%;
+}
+
+.berries-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hello-box {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.footer-middle {
+  width: 40%;
+  padding: 0 20px;
+}
+
+.footer-middle h2 {
+  margin-bottom: 20px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit-item {
+  text-align: center;
+  width: 30%;
+}
+
+.icon {
+  font-size: 24px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.benefit-item h4 {
+  margin-bottom: 8px;
+}
+
+.footer-right {
+  width: 25%;
+}
+
+.footer-right h2 {
+  margin-bottom: 20px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right span {
+  color: #bbb;
+}

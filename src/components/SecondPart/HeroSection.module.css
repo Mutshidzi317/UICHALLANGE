@@ -1,0 +1,68 @@
+.hero {
+  width: 84vw;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2b3a;
+  padding: 6rem;
+  flex-wrap: wrap;
+  background-image: url('https://tse1.mm.bing.net/th/id/OIP.UfUqlYkO5Fs9iPoN3sZRZAHaEJ?pid=Api&P=0&h=220');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box; 
+}
+
+.signInWrapper {
+  position: absolute;
+  top: 7rem;      
+  right: 3rem;    
+  z-index: 2;
+  width: 250px;
+}
+
+.signInBtn {
+  background-color: #ff5a1f;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signInBtn:hover {
+  background-color: #e04e18;
+}
+
+.textContent {
+  max-width: 500px;
+  color: white;
+  z-index: 1;
+}
+/* Optional: Add an overlay for better text readability */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(31, 43, 58, 0.7);
+  z-index: 0;
+
+}
+.cta {
+  background-color: #ff5a1f; /* Orange */
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  z-index: 1;
+}
+
+.cta:hover {
+  background-color: #e04e18; /* Darker orange on hover */
+}
